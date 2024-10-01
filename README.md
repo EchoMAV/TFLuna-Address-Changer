@@ -1,5 +1,6 @@
-## Arduino project to change the I2C address  
-1. Use the EchoMAV TF Luna Adapter to connect a Benewake TF Luna to the Arduino Uno.
+## Arduino project to change the I2C address of the Benewake TF Luna Rangefinders.
+
+Use the EchoMAV TF Luna Adapter to connect a Benewake TF Luna to the Arduino Uno. 
 
 Wiring:  
 | Arduino UNO | TF-Luna Adapter |
