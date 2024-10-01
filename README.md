@@ -17,4 +17,4 @@ Wiring:
 4. Click the checkmark to compile
 5. Open the serial monitor (Tools > Serial monitor), set the baud rate to 115200
 6. Click the arrow to load the code
-7. You should see output in the serial monitor, follow the instructions to find a device and/or change the I2C address. Note that the address is input in decimal, not hex.
+7. You should see output in the serial monitor, follow the instructions to find a device and/or change the I2C address. Note that the address is input in decimal, not hex. Enter commands in the top window and press Send.
