@@ -2,8 +2,9 @@
 1. Use the EchoMAV TF Luna Adapter to connect a Benewake TF Luna to the Arduino Uno.
 
 Wiring:  
+| Arduino UNO | TF-Luna Adapter |
 |-----|-----|
-| SCL | SCL |
+| SDA | SDA |
 | SDA | SDA |
 | +5V | +5V |
 | GND | GND |
