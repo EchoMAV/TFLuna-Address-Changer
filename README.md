@@ -9,6 +9,7 @@ Wiring:
 | +5V | +5V |
 | GND | GND |
 
+![IMG_1778](https://github.com/user-attachments/assets/7e819551-9817-45fa-b1e3-c8fb3d57218d)
 
 1. Open the project in the Arduino IDE.
 2. Plug in the Arduino Uno USB cable, in the IDE, set Tools > Port to the identified port
