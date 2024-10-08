@@ -1,11 +1,13 @@
 /* File Name: TFMPI2C_changeI2C.ino 
  * Developer: Bud Ryerson
+ * Updated By: Brad Stinson (EchoMAV, LLC) to add address save for modern TF Luna firmware
  * Inception: 16 FEB 2020
  * Last work: 27 SEP 2020 - Replaced every instance of `printf()` with Serial.print().
  *                          because some Arduinos, such as the Due and ESP32, require
  *                          a CR/LF with every instance. Might be better without them.
  *            04 OCT 2021 - Corrected typo in line 136
  *            15 JAN 2022 - Added timeout for unrecognized repsonse to prompt.
+ *	      08 OCT 2024 - Added save command after address change (Brad - EchoMAV)
  *
  * Description: Run an I2C address search.
  *              Use first address found as old address.
