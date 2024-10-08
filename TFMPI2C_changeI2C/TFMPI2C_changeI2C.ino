@@ -128,8 +128,17 @@ void loop()
             if( tfmP.sendCommand( SET_I2C_ADDRESS, newAddr, oldAddr))
             {
                 printAddress( newAddr);
+
+                 Serial.print( "Saving Settings: ");
+                if( tfmP.sendCommand( SAVE_SETTINGS, 0, newAddr))
+                {
+                  Serial.print( "done!");
+                  delay(500);
+                }
+                else tfmP.printReply();
             }
             else tfmP.printReply();
+                                  
           }
           else  // If response is "N"
           {
